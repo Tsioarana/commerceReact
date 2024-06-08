@@ -1,0 +1,72 @@
+.login{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #0c022c70;
+    display: grid;
+}
+.login-container{
+    place-self: center;
+    width: max(23vw,330px);
+    color: #cebace;
+    background-color: rgb(19, 13, 58);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 14px;
+    padding: 25px 30px;
+    font-size: 14px;
+    animation:  fadeIn 0.5s;
+}
+.login-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(14, 1, 31);
+}
+.login-title i{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: rgb(193, 190, 214);
+}
+.login-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login-inputs input{
+    outline: none;
+    border: 1px solid #dd690a;
+    padding: 10px;
+    background: #2d22ca1c;
+    color: rgb(218, 210, 210);
+    border-radius: 4px;
+}
+.login-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: wheat;
+    background: rgb(23, 9, 150);
+    font-size: 15px;
+    cursor: pointer;
+}
+.login-container button:hover{
+    background: #2d22ca;
+    color: #fffcff;
+}
+.login-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+.login-condition input{
+    margin-top: 5px;
+}
+.login p span{
+    color: rgb(219, 127, 7);
+    font-weight: 500;
+    cursor: pointer;
+}
